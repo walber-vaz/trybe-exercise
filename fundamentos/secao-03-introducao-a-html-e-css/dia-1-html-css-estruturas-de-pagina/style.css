@@ -5,5 +5,38 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 20px;
+}
+
+li {
+  margin-left: 40px;
+  font-size: 15pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 15pt;
+  margin-bottom: 10px;
+}
+
+img {
+  margin-top: 50px;
 }
