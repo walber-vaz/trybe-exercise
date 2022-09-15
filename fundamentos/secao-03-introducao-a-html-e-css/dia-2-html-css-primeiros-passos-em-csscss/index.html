@@ -6,15 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>css - estilizando</title>
   <style>
+    .cor-bg {
+      background-color: aqua;
+    }
+    #cor-amarelo {
+      background-color: yellow;
+    }
+    #cor-marrom {
+      background-color: brown;
+    }
+    #cor-vermelho {
+      background-color: red;
+    }
+    body {
+      font-size: 16px;
+    }
     h1 {
       font-size: 65px;
       color: orange;
+      font-family: sans-serif;
     }
     li {
       background-color: lightcoral;
     }
-    .cor-bg {
-      background-color: aqua;
+    p {
+      font-weight: 600;
+      font-size: 3em;
+      font-style: italic;
+      line-height: 20px;
+      text-align: center;
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -22,9 +43,9 @@
   <h1>Exercícios 3.2</h1>
   <p class="cor-bg">Qual é a sua cor favorita?</p>
   <ul class="cor-bg">
-    <li>Amarelo</li>
-    <li>Vermelho</li>
-    <li>Marrom</li>
+    <li id="cor-amarelo">Amarelo</li>
+    <li id="cor-vermelho">Vermelho</li>
+    <li id="cor-marrom">Marrom</li>
   </ul>
 </body>
 </html>
