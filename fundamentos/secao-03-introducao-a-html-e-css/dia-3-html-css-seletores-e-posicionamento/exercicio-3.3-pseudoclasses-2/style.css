@@ -1,3 +1,20 @@
 div:hover {
   border: rgb(6, 255, 39) solid 2px;
 }
+
+div:nth-of-type(n) {
+  background-color: aqua;
+}
+
+div:nth-of-type(3) {
+  padding: 20px;
+}
+
+div:nth-of-type(2n+1) {
+  font-style: italic;
+}
+
+h3:nth-of-type(n) {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
