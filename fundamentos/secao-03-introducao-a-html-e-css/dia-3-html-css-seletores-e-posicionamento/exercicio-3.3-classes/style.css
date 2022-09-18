@@ -3,7 +3,7 @@ ol {
 }
 
 ol li:nth-child(even) {
-  color: #fff;
+  color: green;
 }
 
 ol li:nth-child(odd) {
@@ -28,22 +28,31 @@ li:nth-child(-n+3)  {
   color: blue;
 }
 
-.pink {
+ul:nth-of-type(1) li:nth-child(2), ul:nth-of-type(1) li:nth-child(3) {
   background-color: pink;
 }
 
-#laranja:hover {
+li:nth-of-type(1) a:nth-child(1):hover {
+  font-weight: bold;
   color: orange;
 }
 
-#verde {
+li:nth-of-type(2) a:nth-child(1):hover {
+  font-weight: bold;
   color: green;
 }
 
-#preto {
-  color:black;
+li:nth-of-type(3) a:nth-child(1):hover {
+  font-weight: bold;
+  color: black;
 }
 
-#amarelo {
+li:nth-of-type(4) a:nth-child(1):hover {
+  font-weight: bold;
   color: yellow;
+}
+
+li:nth-of-type(5) a:nth-child(1):hover {
+  font-weight: bold;
+  color: green;
 }
