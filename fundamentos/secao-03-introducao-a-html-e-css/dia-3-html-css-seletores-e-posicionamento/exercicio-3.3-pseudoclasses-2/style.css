@@ -1,0 +1,56 @@
+div:nth-of-type(1) h3:nth-child(1) {
+  color: red;
+  font-family: Helvetica, sans-serif;
+}
+
+div:nth-of-type(2) h3:nth-child(1) {
+  color: blue;
+  font-family: Helvetica, sans-serif;
+}
+
+div:nth-of-type(3) h3:nth-child(1) {
+  color: brown;
+  font-family: Helvetica, sans-serif;
+}
+
+div:nth-of-type(4) h3:nth-child(1) {
+  color: orange;
+  font-family: Helvetica, sans-serif;
+}
+
+div:nth-of-type(5) h3:nth-child(1) {
+  color: yellow;
+  font-family: Helvetica, sans-serif;
+}
+
+div:hover {
+  border: rgb(6, 255, 39) solid 2px;
+}
+
+div:nth-of-type(1) {
+  background-color: aqua;
+}
+
+div:nth-of-type(2) {
+  background-color: red;
+}
+
+div:nth-of-type(3) {
+  background-color: aquamarine;
+}
+
+div:nth-of-type(4) {
+  background-color: blue;
+}
+
+div:nth-of-type(5) {
+  background-color: blueviolet;
+}
+
+div:nth-of-type(3) {
+  padding: 20px;
+}
+
+div:nth-of-type(odd) h3:nth-child(1) {
+  font-style: italic;
+}
