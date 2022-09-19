@@ -1,0 +1,15 @@
+h2 , p {
+  text-align: center;
+}
+
+li:hover {
+  background-color: aquamarine;
+}
+
+li:active {
+  font-family: Helvetica, sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}

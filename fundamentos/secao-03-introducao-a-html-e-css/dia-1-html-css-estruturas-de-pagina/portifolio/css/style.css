@@ -1,0 +1,26 @@
+:root {
+  --bg-color: rgb(26, 26, 26);
+  --bg-color-2: rgb(71, 172, 255);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  background-color: var(--bg-color-2);
+  width: 50%;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container>img {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 50%;
+}
