@@ -5,52 +5,12 @@
 }
 
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(14, 1, 1);
+  color: #f8f8f8;
+  height: 4.5rem;
+  display: block;
   width: 100vw;
-  height: 5rem;
-  background-color: #d2d2d2;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 2.5rem;
-  background-color: antiquewhite;
-}
-
-.navbar li {
-  list-style: none;
-  margin-left: 2rem;
-  padding: 1rem;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: black;
-}
-
-.content {
-  display: flex;
-  margin: 1rem auto;
-  width: 50vw;
-}
-
-.asside {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  justify-content: center;
-  margin-right: -13rem;
-  margin-top: 1.3rem;
-  float: right;
-  width: 220px;
-  padding: 1.5rem;
-  background-color: red;
-}
-
-.asside table {
-  font-size: 1rem;
+  padding-top: 1rem;
+  margin: auto;
+  text-align: center;
 }
