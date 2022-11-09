@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validator</title>
+  <script src="./src/script.js" type="module" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <main class="container">
+    <section class="header-form">
+      <h2>Crie sua conta</h2>
+    </section>
+    <form action="" method="get" class="form" data-js="form">
+      <section class="control">
+        <label for="name">Nome</label>
+        <input type="text" id="name" placeholder="Digite seu nome" required>
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small></small>
+      </section>
+      <section class="control">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" required>
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small></small>
+      </section>
+      <section class="control">
+        <label for="username">Nome de usuário</label>
+        <input type="text" id="username" placeholder="Digite seu nome de usuário" required>
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small></small>
+      </section>
+      <section class="control">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" placeholder="Digite se e-mail" required>
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small></small>
+      </section>
+      <section class="control">
+        <label for="senha">Senha</label>
+        <input type="text" id="senha" placeholder="Digite sua senha">
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small></small>
+      </section>
+      <button type="submit">cadastrar</button>
+    </form>
+  </main>
+</body>
+</html>

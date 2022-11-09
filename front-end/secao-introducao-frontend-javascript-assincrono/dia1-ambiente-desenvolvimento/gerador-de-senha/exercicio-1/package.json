@@ -1,0 +1,19 @@
+{
+  "name": "exercicio-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --open",
+    "lint": "eslint ./src/script.js"
+  },
+  "dependencies": {
+    "validator": "^13.7.0",
+    "vite": "^3.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-trybe-frontend": "^1.3.1"
+  }
+}
