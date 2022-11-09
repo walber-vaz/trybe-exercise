@@ -6,14 +6,23 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite --open",
-    "lint": "eslint ./src/script.js"
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
   },
   "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-func": "^0.1.18",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-redux": "^4.0.0",
+    "eslint-plugin-sonarjs": "^0.16.0",
     "validator": "^13.7.0",
     "vite": "^3.2.3"
   },
   "devDependencies": {
     "eslint": "^8.27.0",
-    "eslint-config-trybe-frontend": "^1.3.1"
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-trybe-frontend": "^1.3.1",
+    "eslint-plugin-import": "^2.25.2"
   }
 }
